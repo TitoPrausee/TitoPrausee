@@ -21,7 +21,7 @@
 ## Get in Touch
 
 - 📫 Feel free to connect with me via [email](mailto:tito1708@protonmail.com).
-- 💼 Discover my professional journey on [LinkedIn](linkedin.com/in/tito-prause-541ba9297).
+- 💼 Discover my professional journey on [LinkedIn](https://www.linkedin.com/in/tito-prause-541ba9297).
 - 🔗 Dive into my coding adventures and projects on [GitHub](https://github.com/TitoPrausee).
 
 I'm eager to connect with fellow developers, collaborate on exciting projects, and continue my odyssey in the tech world.
