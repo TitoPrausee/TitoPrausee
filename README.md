@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Tito!
 
-🚀 As an 18-year-old developer hailing from Germany, I'm on a passionate journey in the realm of coding and technology. I'm well-versed in a variety of programming languages and technologies, including Python, C#, HTML, CSS, JavaScript, Svelte, PHP, and SQL.
+🚀 As an 19-year-old developer hailing from Germany, I'm on a passionate journey in the realm of coding and technology. I'm well-versed in a variety of programming languages and technologies, including Python, C#, HTML, CSS, JavaScript, Svelte, PHP, and SQL.
 
 ## What I Do
 
