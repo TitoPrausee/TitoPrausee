@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <style>
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    @keyframes glow { 0%,100% { opacity: 0.3; } 50% { opacity: 0.8; } }
+    @keyframes scan { 0% { transform: translateX(0); } 100% { transform: translateX(780px); } }
+    @keyframes pulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+    .bg { fill: #0d0d0d; }
+    .line { stroke: #1a1a1a; stroke-width: 1; fill: none; }
+    .title { font-family: 'SF Mono', 'Monaco', 'Cascadia Code', monospace; font-size: 28px; font-weight: 700; fill: #ffffff; }
+    .cursor { font-family: 'SF Mono', 'Monaco', monospace; font-size: 28px; fill: #ffffff; animation: blink 1s infinite; }
+    .subtitle { font-family: 'SF Mono', 'Monaco', monospace; font-size: 13px; fill: #888888; }
+    .label { font-family: 'SF Mono', 'Monaco', monospace; font-size: 11px; fill: #555555; letter-spacing: 2px; }
+    .fade1 { animation: fadeIn 0.8s ease-out 0.2s both; }
+    .fade2 { animation: fadeIn 0.8s ease-out 0.6s both; }
+    .fade3 { animation: fadeIn 0.8s ease-out 1.0s both; }
+    .fade4 { animation: fadeIn 0.8s ease-out 1.4s both; }
+    .glow1 { animation: glow 3s ease-in-out infinite; }
+    .glow2 { animation: glow 3s ease-in-out infinite 1s; }
+    .glow3 { animation: glow 3s ease-in-out infinite 2s; }
+    .scanner { animation: scan 4s linear infinite; }
+    .pulse-dot { animation: pulse 2s ease-in-out infinite; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="800" height="200" rx="12"/>
+
+  <!-- Grid lines -->
+  <line class="line" x1="0" y1="60" x2="800" y2="60"/>
+  <line class="line" x1="0" y1="140" x2="800" y2="140"/>
+
+  <!-- Top label -->
+  <text class="label fade1" x="30" y="25">/// SYSTEM_PROFILE ///</text>
+  <rect class="pulse-dot" x="740" y="18" width="8" height="8" rx="4" fill="#ffffff"/>
+
+  <!-- Terminal-style title -->
+  <text class="title fade2" x="30" y="95">tito@github</text>
+  <text class="cursor fade2" x="240" y="95">_</text>
+
+  <!-- Typewriter subtitle lines -->
+  <text class="subtitle fade3" x="30" y="120">&gt; developer &amp; system architect</text>
+  <text class="subtitle fade4" x="30" y="138">&gt; embedded systems // autonomous agents // self-hosted infra</text>
+
+  <!-- Bottom status bar -->
+  <text class="label fade4" x="30" y="170">LOCATION</text>
+  <text class="subtitle fade4" x="30" y="185">Jena, DE</text>
+
+  <text class="label fade4" x="180" y="170">FOCUS</text>
+  <text class="subtitle fade4" x="180" y="185">Build &amp; Break</text>
+
+  <text class="label fade4" x="340" y="170">UNIVERSITY</text>
+  <text class="subtitle fade4" x="340" y="185">FSU Jena</text>
+
+  <text class="label fade4" x="520" y="170">STATUS</text>
+  <rect class="pulse-dot" x="520" y="178" width="8" height="8" rx="4" fill="#ffffff"/>
+  <text class="subtitle fade4" x="535" y="185">online</text>
+
+  <!-- Scanning line effect -->
+  <rect class="scanner" x="0" y="60" width="20" height="80" fill="#ffffff" opacity="0.03"/>
+
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="3" height="20" fill="#333333"/>
+  <rect x="0" y="0" width="20" height="3" fill="#333333"/>
+  <rect x="797" y="0" width="3" height="20" fill="#333333"/>
+  <rect x="780" y="0" width="20" height="3" fill="#333333"/>
+  <rect x="0" y="180" width="3" height="20" fill="#333333"/>
+  <rect x="0" y="197" width="20" height="3" fill="#333333"/>
+  <rect x="797" y="180" width="3" height="20" fill="#333333"/>
+  <rect x="780" y="197" width="20" height="3" fill="#333333"/>
+</svg>
