@@ -48,8 +48,8 @@
   <text class="label fade4" x="180" y="170">FOCUS</text>
   <text class="subtitle fade4" x="180" y="185">Build &amp; Break</text>
 
-  <text class="label fade4" x="340" y="170">UNIVERSITY</text>
-  <text class="subtitle fade4" x="340" y="185">FSU Jena</text>
+  <text class="label fade4" x="340" y="170">STACK</text>
+  <text class="subtitle fade4" x="340" y="185">Python // Go // TS</text>
 
   <text class="label fade4" x="520" y="170">STATUS</text>
   <rect class="pulse-dot" x="520" y="178" width="8" height="8" rx="4" fill="#ffffff"/>
