@@ -1,9 +1,3 @@
-<!-- Badges -->
-[![toti.one](https://img.shields.io/badge/toti.one-1a1a1a?style=for-the-badge&logo=GoogleChrome&logoColor=white&labelColor=0d0d0d&color=1a1a1a)](https://toti.one)
-[![Discord](https://img.shields.io/badge/discord.gg/toti-1a1a1a?style=for-the-badge&logo=Discord&logoColor=white&labelColor=0d0d0d&color=1a1a1a)](https://discord.gg/toti)
-[![GitHub](https://img.shields.io/badge/TitoPrausee-1a1a1a?style=for-the-badge&logo=GitHub&logoColor=white&labelColor=0d0d0d&color=1a1a1a)](https://github.com/TitoPrausee)
-[![ProtonMail](https://img.shields.io/badge/tito1708@protonmail.com-1a1a1a?style=for-the-badge&logo=ProtonMail&logoColor=white&labelColor=0d0d0d&color=1a1a1a)](mailto:tito1708@protonmail.com)
-
 <!-- Stats Cards -->
 [![](./profile/stats.svg)](https://github.com/TitoPrausee)
 [![](./profile/top-langs.svg)](https://github.com/TitoPrausee)
